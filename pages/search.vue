@@ -1,5 +1,4 @@
 <script setup>
-import SearchHeader from "~/components/search/SearchHeader.vue";
 import DiskInfoList from "~/components/diskInfoList.vue";
 import sourcesApiEndpoints from "~/assets/vod/clouddrive.json";
 
