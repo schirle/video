@@ -85,7 +85,7 @@ const switchCategory = (e) => {
 }
 
 onMounted(() => {
-  handleSearch()
+  searchByVod()
 })
 
 </script>
@@ -97,19 +97,20 @@ onMounted(() => {
       <div class="w-full p-3">
         <el-button
             type="primary"
+            :plain="category !== 'onlineVod'"
+            color="#6648ff"
+            @click="switchCategory('onlineVod')"
+        >
+          在线搜剧
+        </el-button>
+        <el-button
+            type="primary"
             :plain="category !== 'clouddrive'"
             color="#6648ff"
             @click="switchCategory('clouddrive')"
         >网盘资源
         </el-button>
-        <el-button
-            type="primary"
-            :plain="category !== 'onlineVod'"
-            color="#6648ff"
-            @click="switchCategory('onlineVod')"
-        >
-          在线观影
-        </el-button>
+        
       </div>
       <div v-if="category === 'clouddrive'"
            class="w-full space-y-3 p-3 ">
