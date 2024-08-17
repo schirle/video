@@ -43,7 +43,7 @@ const search = (e) => {
 }
 
 const colorMode = useColorMode()
-const category = ref('clouddrive')
+const category = ref('onlineVod')
 
 import vodApiEndpoints from "~/assets/vod/list"
 
