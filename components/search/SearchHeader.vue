@@ -23,7 +23,7 @@ const colorMode = useColorMode()
 console.log(colorMode.preference)
 
 </script>
-
+<!--
 <template>
   <el-affix>
     <div class="bg-white dark:bg-gray-800 shadow px-[10px] md:px-[20px] py-[10px]">
@@ -64,7 +64,7 @@ console.log(colorMode.preference)
     </div>
   </el-affix>
 </template>
-
+-->
 <style scoped>
 :deep(.el-input__wrapper.is-focus) {
   --el-input-focus-border-color: #6648ff;
