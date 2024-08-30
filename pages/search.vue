@@ -91,14 +91,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="_123b1r8aqxg"></div>
-<script> 
-(window.slotbydup = window.slotbydup || []).push({
-id: "u6983122",
-container: "_123b1r8aqxg",
-async: true
-});
-</script>
   <div class="dark:bg-gray-400 min-h-screen ">
     <search-header :keyword="keyword" @search="search"></search-header>
     <div class="max-w-[1240px] mx-auto grid grid-cols-1 pb-8">
@@ -132,6 +124,14 @@ async: true
     </div>
     <el-backtop></el-backtop>
   </div>
+    <div class="_123b1r8aqxg"></div>
+<script> 
+(window.slotbydup = window.slotbydup || []).push({
+id: "u6983122",
+container: "_123b1r8aqxg",
+async: true
+});
+</script>
 </template>
 
 <style scoped>
