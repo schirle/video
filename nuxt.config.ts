@@ -44,6 +44,9 @@ export default defineNuxtConfig({
                     src: '//cpro.baidustatic.com/cpro/ui/cm.js',
                     async: 'async',
                     defer: 'defer'
+                },
+                {
+                    src: '/baidu.js'
                 }
             ]
 
