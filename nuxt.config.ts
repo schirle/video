@@ -44,6 +44,9 @@ export default defineNuxtConfig({
                     src: '//cpro.baidustatic.com/cpro/ui/cm.js',
                     async: 'async',
                     defer: 'defer'
+                },
+                {
+                    (window.slotbydup = window.slotbydup || []).push({id: "u6983122",container: "_123b1r8aqxg",async: true});
                 }
             ]
 
