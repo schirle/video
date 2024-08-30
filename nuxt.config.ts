@@ -39,6 +39,11 @@ export default defineNuxtConfig({
                     src: '//sdk.51.la/js-sdk-pro.min.js?id=Je8jMY2G3n2Gp7Ol&ck=Je8jMY2G3n2Gp7Ol',
                     id: 'LA_COLLECT',
                     charset: 'UTF-8'
+                },
+                {
+                    src: '//cpro.baidustatic.com/cpro/ui/cm.js',
+                    async: 'async',
+                    defer: 'defer'
                 }
             ]
 
