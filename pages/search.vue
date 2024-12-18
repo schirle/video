@@ -101,13 +101,12 @@ onMounted(() => {
             color="#6648ff"
             @click="switchCategory('onlineVod')"
         >
-          在线搜剧
+          在线看剧
         </el-button>
         <el-button
             type="primary"
-            :plain="category !== 'clouddrive'"
             color="#6648ff"
-            @click="switchCategory('clouddrive')"
+            onclick="window.open('https://www.panso.xyz/s/keyword.html')"
         >网盘资源
         </el-button>
         
