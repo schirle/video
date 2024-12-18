@@ -103,12 +103,7 @@ onMounted(() => {
         >
           在线看剧
         </el-button>
-        <el-button
-            type="primary"
-            color="#6648ff"
-            onclick= wd
-        >网盘资源
-        </el-button>
+
         
       </div>
       <div v-if="category === 'clouddrive'"
