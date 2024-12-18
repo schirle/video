@@ -106,7 +106,7 @@ onMounted(() => {
         <el-button
             type="primary"
             color="#6648ff"
-            onclick= "keyword"
+            onclick= wd
         >网盘资源
         </el-button>
         
