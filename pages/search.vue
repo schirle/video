@@ -106,7 +106,7 @@ onMounted(() => {
         <el-button
             type="primary"
             color="#6648ff"
-            onclick="window.open('https://www.panso.xyz/s/" + keyword + ".html')"
+            onclick= "keyword"
         >网盘资源
         </el-button>
         
